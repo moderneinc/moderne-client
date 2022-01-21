@@ -1,4 +1,4 @@
-package org.openrewrite.test;
+package io.moderne.test
 
 import io.moderne.serialization.TreeSerializer
 import okhttp3.OkHttpClient
@@ -21,7 +21,7 @@ interface ModerneTest {
         get() = InMemoryExecutionContext { t: Throwable -> fail<Any>("Failed to run parse sources or recipe", t) }
 
     @Suppress("UNCHECKED_CAST")
-    fun assertChangedBase(
+    fun assertChanged(
         recipe: Recipe = this.recipe!!,
         moderneAstLink: String,
         moderneApiBearerToken: String = apiTokenFromUserHome(),
