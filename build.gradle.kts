@@ -8,23 +8,23 @@ plugins {
     signing
 
     id("org.jetbrains.kotlin.jvm") version "1.5.10"
-    id("nebula.maven-resolved-dependencies") version "17.3.2"
-    id("nebula.release") version "15.3.1"
-    id("com.google.cloud.artifactregistry.gradle-plugin") version "2.1.1"
-    id("io.github.gradle-nexus.publish-plugin") version "1.0.0"
+    id("nebula.maven-resolved-dependencies") version "18.2.0"
+    id("nebula.release") version "16.0.0"
+    id("com.google.cloud.artifactregistry.gradle-plugin") version "2.1.4"
+    id("io.github.gradle-nexus.publish-plugin") version "1.1.0"
 
     id("nebula.maven-shadow-publish") version ("18.2.0")
     id("com.github.johnrengelman.shadow") version ("7.1.2")
 
     id("org.owasp.dependencycheck") version "6.5.3"
 
-    id("nebula.maven-publish") version "17.3.2"
-    id("nebula.contacts") version "5.1.0"
-    id("nebula.info") version "9.3.0"
+    id("nebula.maven-publish") version "18.2.0"
+    id("nebula.contacts") version "6.0.0"
+    id("nebula.info") version "11.2.0"
 
-    id("nebula.javadoc-jar") version "17.3.2"
-    id("nebula.source-jar") version "17.3.2"
-    id("nebula.maven-apache-license") version "17.3.2"
+    id("nebula.javadoc-jar") version "18.2.0"
+    id("nebula.source-jar") version "18.2.0"
+    id("nebula.maven-apache-license") version "18.2.0"
 
     id("org.openrewrite.rewrite") version "latest.release"
 }
