@@ -16,7 +16,7 @@ plugins {
     id("nebula.maven-shadow-publish") version ("18.2.0")
     id("com.github.johnrengelman.shadow") version ("7.1.2")
 
-    id("org.owasp.dependencycheck") version "6.5.3"
+    id("org.owasp.dependencycheck") version "latest.release"
 
     id("nebula.maven-publish") version "17.3.2"
     id("nebula.contacts") version "5.1.0"
